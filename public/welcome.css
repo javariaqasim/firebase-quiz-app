@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+  }
+  
+  #table-head {
+    text-align: center;
+  }
+
+  
+  .col {
+    padding: 20px 20px 0px 0px;
+    border: 1px solid black;
+  }
+  
+  li {
+    cursor: pointer;
+    border: 1px solid blue;
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+  }
+  
+  .right {
+    background-color: green;
+  }
+  
+  .wrong {
+    background-color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .disable {
+    pointer-events: none;
+  }
+  
+  body {
+    height: 100%;
+    display: grid;
+    background-color: gray;
+  }
+
+  .header{
+    font-size: 50px;
+    color: black;
+  }
+
+  .header1{
+    font-size: 40px;
+    color: gray;
+  }
+  
+  div.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    transition: 0.2s all;
+  }
+  
+  
+  .startbtn {
+    margin: 20px 0px 0px 0px;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    outline: none;
+    border: 1px solid black;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s linear;
+  }
+  
+  .startbtn:hover {
+    background-color: gray;
+  }
+
+  .nextbtn {
+    margin: 20px 0px 0px 0px;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    font-weight: 900;
+    outline: none;
+    border: 1px solid red;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s linear;
+  }
+  
+  .nextbtn:hover {
+    opacity: 0.7;
+  }
